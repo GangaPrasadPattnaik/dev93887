@@ -7,7 +7,7 @@ My_Functions.prototype = Object.extendsObject(AbstractAjaxProcessor, {
 		results.message = 'success';
 		//results.input = sysparm_x
 		results.constantReturn ='CONSTANT';
-		return JSON.stringify(results);
+		return JSON.stringify(results);// this is the return statemnt/ testing if it appears in a diffrent browser
 	},
 	
     type: 'My_Functions'
